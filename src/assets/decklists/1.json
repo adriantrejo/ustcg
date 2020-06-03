@@ -1,0 +1,137 @@
+{
+    "title": "Baby Blacephalon mini",
+    "cards": [
+      {
+        "type": 1,
+        "name": "Jirachi",
+        "edition": "TEU",
+        "quantity": 4
+      },
+      {
+        "type": 1,
+        "name": "Blacephalon",
+        "edition": "UNB",
+        "quantity": 4
+      },
+      {
+        "type": 1,
+        "name": "Zacian V",
+        "edition": "SSH",
+        "quantity": 1
+      },
+      {
+        "type": 1,
+        "name": "Blacephalon GX",
+        "edition": "LOT",
+        "quantity": 1
+      },
+      {
+        "type": 1,
+        "name": "Oricorio GX",
+        "edition": "COE",
+        "quantity": 1
+      },
+      {
+        "type": 1,
+        "name": "Phione",
+        "edition": "COE",
+        "quantity": 1
+      },
+      {
+        "type": 1,
+        "name": "Mew",
+        "edition": "UNB",
+        "quantity": 1
+      },
+      {
+        "type": 1,
+        "name": "Victini Prisma",
+        "edition": "TEU",
+        "quantity":1
+      },
+      {
+        "type": 2,
+        "name": "Soldadora",
+        "edition": "",
+        "quantity": 4 
+      },
+      {
+        "type": 2,
+        "name": "Cristal Fuego",
+        "edition": "",
+        "quantity": 4 
+      },
+      {
+        "type": 2,
+        "name": "Veloz Ball",
+        "edition": "",
+        "quantity": 4 
+      },
+      {
+        "type": 2,
+        "name": "Recuperación de Energía",
+        "edition": "",
+        "quantity": 3 
+      },
+      {
+        "type": 2,
+        "name": "Cambio",
+        "edition": "",
+        "quantity": 2 
+      },
+      {
+        "type": 2,
+        "name": "Bloc de Amigos",
+        "edition": "",
+        "quantity": 1 
+      },
+      {
+        "type": 2,
+        "name": "Gran Capturador",
+        "edition": "",
+        "quantity": 1 
+      },
+      {
+        "type": 2,
+        "name": "Bolsa Aventura",
+        "edition": "",
+        "quantity": 1
+      },
+      {
+        "type": 2,
+        "name": "Huevo Suerte",
+        "edition": "",
+        "quantity": 4 
+      },
+      {
+        "type": 2,
+        "name": "Escapatín",
+        "edition": "",
+        "quantity": 2 
+      },
+      {
+        "type": 2,
+        "name": "Portador Ente",
+        "edition": "",
+        "quantity": 1 
+      },
+      {
+        "type": 2,
+        "name": "Ultraespacio",
+        "edition": "",
+        "quantity": 2 
+      },
+      {
+        "type": 2,
+        "name": "Fábrica Ignea",
+        "edition": "",
+        "quantity": 1 
+      },
+      {
+        "type": 3,
+        "name": "Energía Fuego",
+        "edition": "",
+        "quantity": 14 
+      }
+    ]
+  }

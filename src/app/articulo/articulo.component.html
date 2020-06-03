@@ -1,0 +1,31 @@
+<div class="container bg-black opacity-80 p-3">
+    <!-- Título del artículo -->
+    <div><h1 class="text-white">{{article.title}}</h1></div>
+    <!-- Párrafos de los artículos -->
+    <div *ngFor= "let paragraph of article.paragraphs">
+        <div class= "w3 text-white"><p>{{paragraph.text}}</p></div>
+        <div class="card-deck" *ngIf= " paragraph.position == 3">
+            <!-- Pokemon del artículo -->
+            <div class="card" style="width: 18rem;">
+                <div class="card-header h3 bg-danger opacity-95 text-white">Pokémon</div>
+                <ul class="list-group list-group-flush " *ngFor= "let card of decklist.cards">
+                <li class="list-group-item " *ngIf= " card.type == 1" >{{card.quantity}} x {{card.name}} {{card.edition}}</li>
+                </ul>
+            </div>
+            <!-- Entrenadores del artículo -->
+            <div class="card" style="width: 18rem;">
+                <div class="card-header h3 bg-danger opacity-95 text-white">Entrenadores</div>
+                <ul class="list-group list-group-flush" *ngFor= "let card of decklist.cards">
+                <li class="list-group-item " *ngIf= " card.type == 2" >{{card.quantity}} x {{card.name}}</li>
+                </ul>
+            </div>
+            <!-- Energías del artículo -->    
+            <div class="card" style="width: 18rem;">
+                <div class="card-header h3 bg-danger opacity-95 text-white">Energías</div>
+                <ul class="list-group list-group-flush" *ngFor= "let card of decklist.cards">
+                <li class="list-group-item" *ngIf= " card.type == 3" >{{card.quantity}} x {{card.name}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
